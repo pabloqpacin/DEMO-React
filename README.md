@@ -64,5 +64,13 @@ npm install react react-dom
 npm install --save-dev @types/react @types/react-dom
 ```
 
+```sh
+npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin ts-loader
+
+echo "..." > webpack.config.js
+
+npm install --save-dev ts-node
+```
+
 
 
