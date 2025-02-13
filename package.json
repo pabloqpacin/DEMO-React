@@ -1,0 +1,27 @@
+{
+  "name": "demo-react_helloworld",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloqpacin/DEMO-React.git"
+  },
+  "keywords": [
+    "devops",
+    "cicd",
+    "webdev"
+  ],
+  "author": "pabloqpacin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabloqpacin/DEMO-React/issues"
+  },
+  "homepage": "https://github.com/pabloqpacin/DEMO-React#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

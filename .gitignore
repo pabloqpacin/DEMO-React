@@ -1,0 +1,5 @@
+*.todo
+*mock*
+
+node_modules
+

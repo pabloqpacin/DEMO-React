@@ -41,4 +41,17 @@ npm install react@18 react-dom@18
 # NO ME ESTÁ GUSTANDO EL TEMA
 ``` -->
 
+```sh
+# Creates package.json
+npm init
+  # ...
+
+# Creates package-log.json
+npm install --save-dev typescript
+  # With --save-dev it's saved as a development dependency, thus not required for the production build of the app
+
+echo "node_modules" >> .gitignore
+```
+
+
 
