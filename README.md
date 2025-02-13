@@ -53,5 +53,16 @@ npm install --save-dev typescript
 echo "node_modules" >> .gitignore
 ```
 
+```sh
+npm install --save-dev @tsconfig/recommended
+
+# Creates tsconfig.json
+echo "..." > tsconfig.json
+
+npm install react react-dom
+
+npm install --save-dev @types/react @types/react-dom
+```
+
 
 
