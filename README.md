@@ -72,5 +72,27 @@ echo "..." > webpack.config.js
 npm install --save-dev ts-node
 ```
 
+## Construir proyecto
+
+```sh
+echo "..." > src/index.tsx
+``` 
+
+```sh
+node_modules/.bin/webpack serve --mode development --open
+  # [webpack-cli] Failed to load '/home/pabloqpacin/repos/DEMO-React_HelloWorld/webpack.config.ts' config
+  # [webpack-cli] ReferenceError: module is not defined
+  #     at /home/pabloqpacin/repos/DEMO-React_HelloWorld/webpack.config.ts:3:1
+  #     at ModuleJobSync.runSync (node:internal/modules/esm/module_job:396:35)
+  #     at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:366:47)
+  #     at loadESMFromCJS (node:internal/modules/cjs/loader:1554:24)
+  #     at Module._compile (node:internal/modules/cjs/loader:1705:5)
+  #     at Object.loadTS [as .ts] (node:internal/modules/cjs/loader:1815:10)
+  #     at Module.load (node:internal/modules/cjs/loader:1458:32)
+  #     at Function._load (node:internal/modules/cjs/loader:1275:12)
+  #     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+  #     at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+```
+
 
 
